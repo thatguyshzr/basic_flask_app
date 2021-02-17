@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <!-- CSS ––––––––––––––––––––––––––––––––––––––––––– -->
+	  <link rel="stylesheet" href="../static/css/normalize.css">
+	  <link rel="stylesheet" href="../static/css/skeleton.css">
+
+	<title>Basic Flask</title>
+</head>
+<body>
+	<div style="margin-left: 5%; margin-top: 5%">
+		<form action= "/" method="POST">
+			<label>Convert text to uppercase: </label>
+			<input type="text" name="in_text" placeholder="Type text">
+			<button type="submit" class="btn btn-success">Submit</button>
+		</form>
+
+		<form action= "/" method="post">
+	          <label>{{ up_text }}</label>
+	    </form>
+	</div>
+</body>
+</html>
